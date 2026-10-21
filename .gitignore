@@ -1,0 +1,6 @@
+PLACA_IEMA-backups/
+fp-info-cache
+*.kicad_prl
+*-backups/
+*.lck
+~*.lck
