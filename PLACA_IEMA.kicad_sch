@@ -2925,6 +2925,10 @@
 		(uuid "2939dd91-a405-47b5-90e6-a12a8f42abe7")
 	)
 	(no_connect
+		(at 154.94 101.6)
+		(uuid "2b0aea5b-73fc-46e4-ab9a-dc78e5ca660e")
+	)
+	(no_connect
 		(at 167.64 88.9)
 		(uuid "2dd3bca7-e107-44a6-81f6-1390d05df12b")
 	)
@@ -3081,6 +3085,10 @@
 		(uuid "e2ff6486-e3f9-48e6-b6cd-f85c941ff9b5")
 	)
 	(no_connect
+		(at 167.64 101.6)
+		(uuid "ef40f3fe-3d9f-4d5f-bc7e-a34027f1d332")
+	)
+	(no_connect
 		(at 167.64 91.44)
 		(uuid "f86049a6-72f1-49d5-af3e-bf1ccd667502")
 	)
@@ -3192,6 +3200,16 @@
 		)
 		(uuid "1a5b9e46-dcd5-4091-be9b-8127e5b3877c")
 	)
+	(label "I2C_SDA_1"
+		(at 167.64 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f14c359-734c-49ee-808f-b059e5ce4781")
+	)
 	(label "TX_RS485"
 		(at 106.68 81.28 180)
 		(effects
@@ -3271,6 +3289,16 @@
 			(justify right bottom)
 		)
 		(uuid "59314b6b-f896-49fe-9f99-4cfec96c0fb5")
+	)
+	(label "I2C_SCL_1"
+		(at 154.94 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c7e6e10-dbc6-4fa9-bfb5-f4763fea34d8")
 	)
 	(label "I2C_SDA_1"
 		(at 106.68 104.14 180)
@@ -3392,16 +3420,6 @@
 		)
 		(uuid "9c736608-0393-4454-91c8-1e8435296595")
 	)
-	(label "SPI{slash}MOSI"
-		(at 154.94 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a39fef13-7127-4ae3-a16d-3d18713832d7")
-	)
 	(label "GND"
 		(at 133.35 60.96 0)
 		(effects
@@ -3441,16 +3459,6 @@
 			(justify left bottom)
 		)
 		(uuid "b6ebfd84-1a32-4014-b61b-1965caebc5fc")
-	)
-	(label "I2C_SCL_1"
-		(at 167.64 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bbf8434e-e157-4d69-b927-464e30c83997")
 	)
 	(label "3V3"
 		(at 110.49 151.13 270)
